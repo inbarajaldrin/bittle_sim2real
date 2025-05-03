@@ -7,7 +7,7 @@ def watch_model():
     env.GUI_MODE = True
     
     # Load trained model on CPU (matches training device)
-    model = PPO.load("./trained_models/opencat_gym_model", device="cpu")
+    model = PPO.load("./saved_models/opencat_gym_model", device="cpu")
     
     obs = env.reset()[0]  # Gymnasium returns (obs, info)
     for _ in range(1000):
