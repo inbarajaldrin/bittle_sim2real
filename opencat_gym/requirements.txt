@@ -1,0 +1,7 @@
+gym
+gymnasium
+numpy
+pybullet
+stable-baselines3
+matplotlib
+shimmy>=2.0
